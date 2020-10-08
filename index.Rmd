@@ -1,0 +1,31 @@
+---
+title: "is trump dead yet?"
+author: 
+output: 
+  html_document:
+    theme: cosmo
+---
+
+```{r setup, include = FALSE, cache=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  comment = NA,
+  warning = FALSE,
+  message = FALSE)
+```
+
+```{r include=FALSE}
+
+pacman::p_load(tidyverse,
+               blogdown,
+               here)
+
+set_here()
+
+```
+
+# no.
+
+
+_Last Updated `r Sys.time()`._
+
